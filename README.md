@@ -12,15 +12,11 @@ To run this application, you'll need to have Java and MySQL installed on your ma
 ### Modify the application.properties file in the src/main/resources directory to include your MySQL username and password:
 
 #### Copy code
-`
-spring.datasource.url=jdbc:mysql://localhost:3306/employees
-`
-spring.datasource.username=<your-username>
-`
-spring.datasource.password=<your-password>
-`
-spring.jpa.hibernate.ddl-auto=update
-`
+`spring.datasource.url=jdbc:mysql://localhost:3306/employees`
+
+`spring.datasource.username=<your-username>`
+`spring.datasource.password=<your-password>`
+`spring.jpa.hibernate.ddl-auto=update`
 
 ### Build and run the application using Maven: mvn spring-boot:run
 
@@ -29,12 +25,12 @@ Usage
 This application provides a RESTful API for managing employees, with the following endpoints:
 `
 GET /employees: retrieves a list of all employees in the database
-`
+``
 GET /employees/{id}: retrieves a single employee record by ID
-`
+``
 POST /employees: creates a new employee record
-`
+``
 PUT /employees/{id}: updates an existing employee record by ID
-`
+``
 DELETE /employees/{id}: deletes an existing employee record by ID
 `
