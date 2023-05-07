@@ -11,7 +11,7 @@ To run this application, you'll need to have Java and MySQL installed on your ma
 ### Create a new database in MySQL called employees
 ### Modify the application.properties file in the src/main/resources directory to include your MySQL username and password:
 
-#### Copy code
+#### Copy code <br>
 `spring.datasource.url=jdbc:mysql://localhost:3306/employees`<br>
 `spring.datasource.username=<your-username>`<br>
 `spring.datasource.password=<your-password>`<br>
@@ -21,7 +21,7 @@ To run this application, you'll need to have Java and MySQL installed on your ma
 
 Open your web browser and navigate to http://localhost:8080/employees. You should see a JSON response with an empty array.
 Usage
-This application provides a RESTful API for managing employees, with the following endpoints:
+This application provides a RESTful API for managing employees, with the following endpoints:<br>
 `GET /employees: retrieves a list of all employees in the database`<br>
 `GET /employees/{id}: retrieves a single employee record by ID`<br>
 `POST /employees: creates a new employee record`<br>
