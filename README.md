@@ -7,7 +7,7 @@ To run this application, you'll need to have Java and MySQL installed on your ma
 
 ## Once you have Java and MySQL installed, you can follow these steps to run the application:
 
-### Clone this repository to your local machine using git clone https://github.com/yourusername/spring-boot-mysql-rest.git
+### Clone this repository to your local machine using git clone https://github.com/youlserf/blog.git
 ### Create a new database in MySQL called employees
 ### Modify the application.properties file in the src/main/resources directory to include your MySQL username and password:
 
